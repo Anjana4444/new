@@ -44,7 +44,7 @@ namespace LibraryManagementSystem
             int contact = Convert.ToInt32(txtcon.Text);
             string email = txtemail.Text;
 
-            string ConnectionString = "server=127.0.0.1;user=root;database=library;port=3306;password=anjana4444;";
+            string ConnectionString = "server=127.0.0.1;user=root;database=library;port=3306;password=Ssckboys@1;";
 
             MySqlConnection con = new MySqlConnection(ConnectionString);
 

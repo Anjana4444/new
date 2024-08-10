@@ -116,6 +116,7 @@
             this.btnissuebook.TabIndex = 29;
             this.btnissuebook.Text = "Issue Book";
             this.btnissuebook.UseVisualStyleBackColor = false;
+            this.btnissuebook.Click += new System.EventHandler(this.btnissuebook_Click);
             // 
             // label10
             // 
@@ -270,6 +271,7 @@
             this.btnrefresh.TabIndex = 6;
             this.btnrefresh.Text = "Refresh";
             this.btnrefresh.UseVisualStyleBackColor = true;
+            this.btnrefresh.Click += new System.EventHandler(this.btnrefresh_Click);
             // 
             // btnexit
             // 
@@ -280,6 +282,7 @@
             this.btnexit.TabIndex = 5;
             this.btnexit.Text = "Exit";
             this.btnexit.UseVisualStyleBackColor = true;
+            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
             // 
             // btnsearch
             // 
@@ -290,6 +293,7 @@
             this.btnsearch.TabIndex = 4;
             this.btnsearch.Text = "Search Student";
             this.btnsearch.UseVisualStyleBackColor = true;
+            this.btnsearch.Click += new System.EventHandler(this.btnsearch_Click);
             // 
             // txtenrollement
             // 

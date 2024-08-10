@@ -105,6 +105,7 @@
             this.addStudentToolStripMenuItem.Name = "addStudentToolStripMenuItem";
             this.addStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.addStudentToolStripMenuItem.Text = "Add Student";
+            this.addStudentToolStripMenuItem.Click += new System.EventHandler(this.addStudentToolStripMenuItem_Click);
             // 
             // viewStudentToolStripMenuItem
             // 
@@ -137,6 +138,7 @@
             this.addNewToolStripMenuItem.Name = "addNewToolStripMenuItem";
             this.addNewToolStripMenuItem.Size = new System.Drawing.Size(119, 24);
             this.addNewToolStripMenuItem.Text = "Book Details";
+            this.addNewToolStripMenuItem.Click += new System.EventHandler(this.addNewToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 

@@ -19,7 +19,7 @@ namespace LibraryManagementSystem
         {
             InitializeComponent();
         }
-        static string ConnectionString = "server=127.0.0.1;user=root;database=library;port=3306;password=;";
+        static string ConnectionString = "server=127.0.0.1;user=root;database=library;port=3306;password=Ssckboys@1;";
 
         MySqlConnection con = new MySqlConnection(ConnectionString);
 
