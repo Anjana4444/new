@@ -19,7 +19,7 @@ namespace LibraryManagementSystem
         {
             InitializeComponent();
         }
-        static string ConnectionString = "server=127.0.0.1;user=root;database=Library;port=3306;password=anjana4444;";
+        static string ConnectionString = "server=127.0.0.1;user=root;database=library;port=3306;password=;";
 
         MySqlConnection con = new MySqlConnection(ConnectionString);
 
@@ -27,9 +27,9 @@ namespace LibraryManagementSystem
 
         private void viewbook_Load(object sender, EventArgs e)
         {
-            panel2.Visible = false;
+            panel2.Visible = true;
             con.Open();
-            string querry = "select =from NewBook";
+            string querry = "select * from NewBook";
 
             MySqlCommand cmd = new MySqlCommand(@querry, con);
 
