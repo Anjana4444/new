@@ -48,5 +48,11 @@ namespace LibraryManagementSystem
             IssueBook ib = new IssueBook();
             ib.Show();
         }
+
+        private void addStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddStudent ast = new AddStudent();
+            ast.Show();
+        }
     }
 }
