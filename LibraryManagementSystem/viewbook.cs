@@ -119,7 +119,7 @@ namespace LibraryManagementSystem
 
         private void btnupdate_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("hi");
+            
             if (MessageBox.Show("Data Will Be updated.", "Success", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
                 string bname = txtbname.Text;
@@ -144,7 +144,7 @@ namespace LibraryManagementSystem
         private void btndelete_Click(object sender, EventArgs e)
         {
 
-            MessageBox.Show("wada utto");
+         
             if (MessageBox.Show("Data Will Be Deleted.Confirm?", "Confirmation Dialog", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
 
