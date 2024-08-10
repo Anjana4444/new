@@ -94,3 +94,4 @@ E:\LAKITH\new\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.C
 E:\LAKITH\new\LibraryManagementSystem\obj\Debug\LibraryM.4D120AE7.Up2Date
 E:\LAKITH\new\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.exe
 E:\LAKITH\new\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb
+E:\LAKITH\new\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.BookDetails.resources

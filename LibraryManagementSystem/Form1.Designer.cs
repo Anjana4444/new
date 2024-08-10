@@ -73,7 +73,7 @@
             this.fictionToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.fictionToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("fictionToolStripMenuItem.Image")));
             this.fictionToolStripMenuItem.Name = "fictionToolStripMenuItem";
-            this.fictionToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.fictionToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.fictionToolStripMenuItem.Text = "Add New Book";
             this.fictionToolStripMenuItem.Click += new System.EventHandler(this.fictionToolStripMenuItem_Click);
             // 
@@ -82,7 +82,7 @@
             this.nonFictionToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.nonFictionToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("nonFictionToolStripMenuItem.Image")));
             this.nonFictionToolStripMenuItem.Name = "nonFictionToolStripMenuItem";
-            this.nonFictionToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.nonFictionToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.nonFictionToolStripMenuItem.Text = "View Books";
             this.nonFictionToolStripMenuItem.Click += new System.EventHandler(this.nonFictionToolStripMenuItem_Click);
             // 
@@ -109,6 +109,7 @@
             this.addNewToolStripMenuItem.Name = "addNewToolStripMenuItem";
             this.addNewToolStripMenuItem.Size = new System.Drawing.Size(119, 24);
             this.addNewToolStripMenuItem.Text = "Book Details";
+            this.addNewToolStripMenuItem.Click += new System.EventHandler(this.addNewToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 

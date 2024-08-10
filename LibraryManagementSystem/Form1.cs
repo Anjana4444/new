@@ -42,5 +42,11 @@ namespace LibraryManagementSystem
             viewbook vb = new viewbook();
             vb.Show();
         }
+
+        private void addNewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BookDetails cbd = new BookDetails();
+            cbd.Show();
+        }
     }
 }
