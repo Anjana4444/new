@@ -29,6 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IssueBook));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtenrollement = new System.Windows.Forms.RichTextBox();
+            this.btnsearch = new System.Windows.Forms.Button();
+            this.btnexit = new System.Windows.Forms.Button();
+            this.btnrefresh = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.cmbbooks = new System.Windows.Forms.ComboBox();
@@ -45,22 +55,124 @@
             this.label15 = new System.Windows.Forms.Label();
             this.txtname = new System.Windows.Forms.RichTextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnrefresh = new System.Windows.Forms.Button();
-            this.btnexit = new System.Windows.Forms.Button();
-            this.btnsearch = new System.Windows.Forms.Button();
-            this.txtenrollement = new System.Windows.Forms.RichTextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(12, 10);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(927, 127);
+            this.panel1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(215, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(165, 121);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label1.Location = new System.Drawing.Point(386, 49);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 29);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Issue Book";
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.BackColor = System.Drawing.Color.LightBlue;
+            this.panel2.Controls.Add(this.btnrefresh);
+            this.panel2.Controls.Add(this.btnexit);
+            this.panel2.Controls.Add(this.btnsearch);
+            this.panel2.Controls.Add(this.txtenrollement);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Location = new System.Drawing.Point(13, 143);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(379, 539);
+            this.panel2.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(36, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(275, 223);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(42, 229);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(269, 29);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Enter Enrollement NO";
+            // 
+            // txtenrollement
+            // 
+            this.txtenrollement.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtenrollement.Location = new System.Drawing.Point(36, 260);
+            this.txtenrollement.Name = "txtenrollement";
+            this.txtenrollement.Size = new System.Drawing.Size(274, 32);
+            this.txtenrollement.TabIndex = 3;
+            this.txtenrollement.Text = "";
+            // 
+            // btnsearch
+            // 
+            this.btnsearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsearch.Location = new System.Drawing.Point(79, 339);
+            this.btnsearch.Name = "btnsearch";
+            this.btnsearch.Size = new System.Drawing.Size(207, 41);
+            this.btnsearch.TabIndex = 4;
+            this.btnsearch.Text = "Search Student";
+            this.btnsearch.UseVisualStyleBackColor = true;
+            // 
+            // btnexit
+            // 
+            this.btnexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnexit.Location = new System.Drawing.Point(214, 431);
+            this.btnexit.Name = "btnexit";
+            this.btnexit.Size = new System.Drawing.Size(145, 41);
+            this.btnexit.TabIndex = 5;
+            this.btnexit.Text = "Exit";
+            this.btnexit.UseVisualStyleBackColor = true;
+            // 
+            // btnrefresh
+            // 
+            this.btnrefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnrefresh.Location = new System.Drawing.Point(36, 431);
+            this.btnrefresh.Name = "btnrefresh";
+            this.btnrefresh.Size = new System.Drawing.Size(137, 41);
+            this.btnrefresh.TabIndex = 6;
+            this.btnrefresh.Text = "Refresh";
+            this.btnrefresh.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -83,10 +195,10 @@
             this.panel3.Controls.Add(this.label15);
             this.panel3.Controls.Add(this.txtname);
             this.panel3.Controls.Add(this.label16);
-            this.panel3.Location = new System.Drawing.Point(398, 141);
+            this.panel3.Location = new System.Drawing.Point(398, 143);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(541, 539);
-            this.panel3.TabIndex = 20;
+            this.panel3.TabIndex = 17;
             // 
             // dateTimePicker
             // 
@@ -99,7 +211,6 @@
             // cmbbooks
             // 
             this.cmbbooks.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbbooks.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbbooks.FormattingEnabled = true;
             this.cmbbooks.Location = new System.Drawing.Point(191, 342);
             this.cmbbooks.Name = "cmbbooks";
@@ -117,7 +228,6 @@
             this.btnissuebook.TabIndex = 29;
             this.btnissuebook.Text = "Issue Book";
             this.btnissuebook.UseVisualStyleBackColor = false;
-            this.btnissuebook.Click += new System.EventHandler(this.btnissuebook_Click);
             // 
             // label10
             // 
@@ -147,7 +257,6 @@
             this.txtemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtemail.Location = new System.Drawing.Point(191, 274);
             this.txtemail.Name = "txtemail";
-            this.txtemail.ReadOnly = true;
             this.txtemail.Size = new System.Drawing.Size(330, 30);
             this.txtemail.TabIndex = 26;
             this.txtemail.Text = "";
@@ -169,7 +278,6 @@
             this.txtcontact.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcontact.Location = new System.Drawing.Point(191, 216);
             this.txtcontact.Name = "txtcontact";
-            this.txtcontact.ReadOnly = true;
             this.txtcontact.Size = new System.Drawing.Size(330, 30);
             this.txtcontact.TabIndex = 24;
             this.txtcontact.Text = "";
@@ -191,7 +299,6 @@
             this.txtsemester.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtsemester.Location = new System.Drawing.Point(191, 157);
             this.txtsemester.Name = "txtsemester";
-            this.txtsemester.ReadOnly = true;
             this.txtsemester.Size = new System.Drawing.Size(330, 30);
             this.txtsemester.TabIndex = 22;
             this.txtsemester.Text = "";
@@ -213,7 +320,6 @@
             this.txtdepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdepartment.Location = new System.Drawing.Point(191, 95);
             this.txtdepartment.Name = "txtdepartment";
-            this.txtdepartment.ReadOnly = true;
             this.txtdepartment.Size = new System.Drawing.Size(330, 30);
             this.txtdepartment.TabIndex = 20;
             this.txtdepartment.Text = "";
@@ -235,7 +341,6 @@
             this.txtname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtname.Location = new System.Drawing.Point(191, 32);
             this.txtname.Name = "txtname";
-            this.txtname.ReadOnly = true;
             this.txtname.Size = new System.Drawing.Size(330, 30);
             this.txtname.TabIndex = 18;
             this.txtname.Text = "";
@@ -251,122 +356,6 @@
             this.label16.TabIndex = 17;
             this.label16.Text = "Student Name";
             // 
-            // panel2
-            // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.BackColor = System.Drawing.Color.LightBlue;
-            this.panel2.Controls.Add(this.btnrefresh);
-            this.panel2.Controls.Add(this.btnexit);
-            this.panel2.Controls.Add(this.btnsearch);
-            this.panel2.Controls.Add(this.txtenrollement);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(13, 141);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(379, 539);
-            this.panel2.TabIndex = 19;
-            // 
-            // btnrefresh
-            // 
-            this.btnrefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnrefresh.Location = new System.Drawing.Point(36, 431);
-            this.btnrefresh.Name = "btnrefresh";
-            this.btnrefresh.Size = new System.Drawing.Size(137, 41);
-            this.btnrefresh.TabIndex = 6;
-            this.btnrefresh.Text = "Refresh";
-            this.btnrefresh.UseVisualStyleBackColor = true;
-            this.btnrefresh.Click += new System.EventHandler(this.btnrefresh_Click);
-            // 
-            // btnexit
-            // 
-            this.btnexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnexit.Location = new System.Drawing.Point(214, 431);
-            this.btnexit.Name = "btnexit";
-            this.btnexit.Size = new System.Drawing.Size(145, 41);
-            this.btnexit.TabIndex = 5;
-            this.btnexit.Text = "Exit";
-            this.btnexit.UseVisualStyleBackColor = true;
-            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
-            // 
-            // btnsearch
-            // 
-            this.btnsearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsearch.Location = new System.Drawing.Point(79, 339);
-            this.btnsearch.Name = "btnsearch";
-            this.btnsearch.Size = new System.Drawing.Size(207, 41);
-            this.btnsearch.TabIndex = 4;
-            this.btnsearch.Text = "Search Student";
-            this.btnsearch.UseVisualStyleBackColor = true;
-            this.btnsearch.Click += new System.EventHandler(this.btnsearch_Click);
-            // 
-            // txtenrollement
-            // 
-            this.txtenrollement.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtenrollement.Location = new System.Drawing.Point(36, 260);
-            this.txtenrollement.Name = "txtenrollement";
-            this.txtenrollement.Size = new System.Drawing.Size(274, 32);
-            this.txtenrollement.TabIndex = 3;
-            this.txtenrollement.Text = "";
-            this.txtenrollement.TextChanged += new System.EventHandler(this.txtenrollement_TextChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(42, 229);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(269, 29);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Enter Enrollement NO";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(36, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(275, 223);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(12, 8);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(927, 127);
-            this.panel1.TabIndex = 18;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label1.Location = new System.Drawing.Point(386, 49);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 29);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Issue Book";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(215, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(165, 121);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // IssueBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -376,24 +365,34 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "IssueBook";
-            this.Text = "IssueBook";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = " ";
             this.Load += new System.EventHandler(this.IssueBook_Load);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnrefresh;
+        private System.Windows.Forms.Button btnexit;
+        private System.Windows.Forms.Button btnsearch;
+        private System.Windows.Forms.RichTextBox txtenrollement;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DateTimePicker dateTimePicker;
         private System.Windows.Forms.ComboBox cmbbooks;
@@ -410,15 +409,5 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.RichTextBox txtname;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnrefresh;
-        private System.Windows.Forms.Button btnexit;
-        private System.Windows.Forms.Button btnsearch;
-        private System.Windows.Forms.RichTextBox txtenrollement;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
