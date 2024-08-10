@@ -11,6 +11,15 @@ bPrice bigint NOT NULL,
 bQuan bigint NOT NULL
 ); 
 
-
 select * from NewBook;
+
+create table NewStudent(
+stuid int NOT null auto_increment primary key,
+sname varchar(250) not null,
+enroll varchar(250) not null,
+dep varchar(250) not null,
+sem varchar(250) not null,
+contact bigint not null,
+email varchar(250) not null
+);
 
