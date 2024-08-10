@@ -130,6 +130,12 @@
     <Compile Include="viewbook.Designer.cs">
       <DependentUpon>viewbook.cs</DependentUpon>
     </Compile>
+    <Compile Include="viewstudentinformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewstudentinformation.Designer.cs">
+      <DependentUpon>viewstudentinformation.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddBooks.resx">
       <DependentUpon>AddBooks.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +159,9 @@
     </Compile>
     <EmbeddedResource Include="viewbook.resx">
       <DependentUpon>viewbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewstudentinformation.resx">
+      <DependentUpon>viewstudentinformation.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

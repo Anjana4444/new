@@ -125,3 +125,6 @@ C:\Users\LAPMART\Documents\GitHub\new\LibraryManagementSystem\obj\Debug\LibraryM
 C:\Users\LAPMART\Documents\GitHub\new\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.exe
 C:\Users\LAPMART\Documents\GitHub\new\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb
 C:\Users\LAPMART\Documents\GitHub\new\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.IssueBook.resources
+E:\LAKITH\new\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.BookDetails.resources
+E:\LAKITH\new\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.IssueBook.resources
+E:\LAKITH\new\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.viewstudentinformation.resources
