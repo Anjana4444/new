@@ -42,5 +42,11 @@ namespace LibraryManagementSystem
             viewbook vb = new viewbook();
             vb.Show();
         }
+
+        private void resurveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IssueBook ib = new IssueBook();
+            ib.Show();
+        }
     }
 }

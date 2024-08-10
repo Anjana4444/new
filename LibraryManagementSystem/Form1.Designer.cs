@@ -38,6 +38,9 @@
             this.addNewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.LblBookNameOrAuther = new System.Windows.Forms.Label();
+            this.studentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,6 +49,7 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.booksToolStripMenuItem,
+            this.studentToolStripMenuItem,
             this.resurveToolStripMenuItem,
             this.returnBooksToolStripMenuItem,
             this.addNewToolStripMenuItem,
@@ -73,7 +77,7 @@
             this.fictionToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.fictionToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("fictionToolStripMenuItem.Image")));
             this.fictionToolStripMenuItem.Name = "fictionToolStripMenuItem";
-            this.fictionToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.fictionToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.fictionToolStripMenuItem.Text = "Add New Book";
             this.fictionToolStripMenuItem.Click += new System.EventHandler(this.fictionToolStripMenuItem_Click);
             // 
@@ -82,7 +86,7 @@
             this.nonFictionToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.nonFictionToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("nonFictionToolStripMenuItem.Image")));
             this.nonFictionToolStripMenuItem.Name = "nonFictionToolStripMenuItem";
-            this.nonFictionToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.nonFictionToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.nonFictionToolStripMenuItem.Text = "View Books";
             this.nonFictionToolStripMenuItem.Click += new System.EventHandler(this.nonFictionToolStripMenuItem_Click);
             // 
@@ -93,6 +97,7 @@
             this.resurveToolStripMenuItem.Name = "resurveToolStripMenuItem";
             this.resurveToolStripMenuItem.Size = new System.Drawing.Size(114, 24);
             this.resurveToolStripMenuItem.Text = "Issue Books";
+            this.resurveToolStripMenuItem.Click += new System.EventHandler(this.resurveToolStripMenuItem_Click);
             // 
             // returnBooksToolStripMenuItem
             // 
@@ -127,6 +132,28 @@
             this.LblBookNameOrAuther.Size = new System.Drawing.Size(0, 17);
             this.LblBookNameOrAuther.TabIndex = 3;
             // 
+            // studentToolStripMenuItem
+            // 
+            this.studentToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addStudentToolStripMenuItem,
+            this.viewStudentToolStripMenuItem});
+            this.studentToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 10.8F);
+            this.studentToolStripMenuItem.Name = "studentToolStripMenuItem";
+            this.studentToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
+            this.studentToolStripMenuItem.Text = "Student";
+            // 
+            // addStudentToolStripMenuItem
+            // 
+            this.addStudentToolStripMenuItem.Name = "addStudentToolStripMenuItem";
+            this.addStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addStudentToolStripMenuItem.Text = "Add Student";
+            // 
+            // viewStudentToolStripMenuItem
+            // 
+            this.viewStudentToolStripMenuItem.Name = "viewStudentToolStripMenuItem";
+            this.viewStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.viewStudentToolStripMenuItem.Text = "View Student";
+            // 
             // FrmNVMLibrary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -160,6 +187,9 @@
         private System.Windows.Forms.ToolStripMenuItem fictionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nonFictionToolStripMenuItem;
         private System.Windows.Forms.Label LblBookNameOrAuther;
+        private System.Windows.Forms.ToolStripMenuItem studentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addStudentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewStudentToolStripMenuItem;
     }
 }
 
