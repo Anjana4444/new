@@ -252,6 +252,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Name = "AddBooks";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddBooks";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
