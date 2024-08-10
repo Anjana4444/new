@@ -43,10 +43,10 @@ namespace LibraryManagementSystem
             vb.Show();
         }
 
-        private void addNewToolStripMenuItem_Click(object sender, EventArgs e)
+        private void resurveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            BookDetails cbd = new BookDetails();
-            cbd.Show();
+            IssueBook ib = new IssueBook();
+            ib.Show();
         }
     }
 }

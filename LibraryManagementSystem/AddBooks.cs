@@ -20,7 +20,7 @@ namespace LibraryManagementSystem
 
             
         }
-        static string ConnectionString = "server=127.0.0.1;user=root;database=Library;port=3306;password=anjana4444;";
+        static string ConnectionString = "server=127.0.0.1;user=root;database=Library;port=3306;password=Ssckboys@1;";
 
         MySqlConnection con = new MySqlConnection(ConnectionString);
         private void label1_Click(object sender, EventArgs e)
